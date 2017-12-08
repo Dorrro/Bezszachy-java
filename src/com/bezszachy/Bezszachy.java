@@ -54,16 +54,14 @@ public class Bezszachy {
     }
 
     private boolean CanMoveAnyFigure(List<Figure> shuffledFigures) {
-        boolean couldMove = false;
         for (Figure figure :
                 shuffledFigures) {
             Optional<Position> newFigurePosition = figure.move(this.figures);
             if (newFigurePosition.isPresent()) {
-                couldMove = true;
-                break;
+                return true;
             }
         }
-        return couldMove;
+        return false;
     }
 
     private void switchSides() {
