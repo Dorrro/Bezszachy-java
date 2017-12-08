@@ -1,4 +1,5 @@
-#Instrukcje:
+# Instrukcje
+
 Bezszachy sa wariantem gry w szachy. Gra prowadzona jest przez dwoch graczy, nazywanych dalej bialym i czarnym, na szachownicy 8 na 8, za pomoca bierek szachowych.
 
 Poczatkowe ustawienie figur na szachownicy jest takie samo, jak w zwyklych szachach. Pionkow w bezszachach nie uzywa sie.
